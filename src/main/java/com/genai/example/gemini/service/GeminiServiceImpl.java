@@ -38,6 +38,7 @@ public class GeminiServiceImpl implements GeminiService {
     public ResponseEntity<String> generateImage(String query) {
 
         GenerateImagesResponse response = geminiClient.models.generateImages(geminiImageModel, query, null);
+        //TODO
         return ResponseEntity.ok(response.generatedImages().get().get(0).image().get().gcsUri().get());
     }
 
