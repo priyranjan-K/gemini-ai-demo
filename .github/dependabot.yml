@@ -5,12 +5,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "23:05"
+      time: "23:07"
     open-pull-requests-limit: 10
     reviewers:
       - "priyranjan-K"
-    assignees:
-      - ""
     labels:
       - "dependencies"
       - "java"
@@ -22,6 +20,4 @@ updates:
     allow:
       - dependency-type: "direct"
       - dependency-type: "indirect"
-    ignore: []
-    milestone: null
 
