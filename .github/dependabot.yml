@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "04:40"
+      time: "04:50"
     open-pull-requests-limit: 10
     reviewers:
       - "priyranjan-K"
