@@ -3,10 +3,10 @@ updates:
   # Enable version updates for Maven dependencies
   - package-ecosystem: "maven"
     directory: "/"
-    target-branch: "stage_2_devlopment"
+    target-branch: "main"
     schedule:
       interval: "daily"
-      time: "06:24"
+      time: "06:28"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 10
     reviewers:
